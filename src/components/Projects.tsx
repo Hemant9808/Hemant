@@ -49,7 +49,7 @@ const Projects = () => {
         chat: "Real-time",
         events: "Live Calendar"
       },
-      featured: false
+      featured: true
     },
     {
       id: 4,
@@ -207,7 +207,7 @@ const Projects = () => {
             <Card 
               key={project.id} 
               className={`glass-card hover:glow-effect transition-spring group fade-in-up stagger-${(index % 3) + 1} ${
-                project.featured ? 'lg:col-span-2 lg:row-span-1' : ''
+                project.featured ? 'lg:col-span-1 lg:row-span-1' : ''
               }`}
             >
               {/* Project Image */}

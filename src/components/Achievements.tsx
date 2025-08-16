@@ -49,8 +49,33 @@ const Achievements = () => {
       bgColor: "bg-yellow-500/10",
       impact: "92% accuracy rate"
     },
+    
     {
       id: 5,
+      title: "CBSE Class XII - 91% Aggregate",
+      category: "Academic",
+      description: "Achieved 91% aggregate in CBSE Class XII examination from GRSS Vidya Mandir, demonstrating strong academic foundation and commitment to excellence.",
+      date: "2019-2021",
+      icon: Zap,
+      color: "text-indigo-500",
+      bgColor: "bg-indigo-500/10",
+      impact: "91% Achievement"
+    },
+    //craked NDA written exam
+    {
+      id: 6,
+      title: "Cracked NDA Written Exam ",
+      category: "Academic",
+      description: "Qualified in the written examination of NDA (National Defence Academy), demonstrating strong aptitude in general knowledge, reasoning, and problem-solving.",
+      date: "2020-2021",
+      icon: Zap,
+      color: "text-indigo-500",
+      bgColor: "bg-indigo-500/10",
+      impact: ""
+    },
+
+    {
+      id: 7,
       title: "B.Tech Computer Science Engineering",
       category: "Education",
       description: "Pursuing Bachelor of Technology in Computer Science and Engineering at Sharda University, Greater Noida with focus on full-stack development and modern technologies.",
@@ -60,16 +85,17 @@ const Achievements = () => {
       bgColor: "bg-blue-500/10",
       impact: "Academic Excellence"
     },
+    //cracked JEE Main and JEE Advanced
     {
-      id: 6,
-      title: "CBSE Class XII - 91% Aggregate",
+      id: 8,
+      title: "Cracked JEE Main",
       category: "Academic",
-      description: "Achieved 91% aggregate in CBSE Class XII examination from GRSS Vidya Mandir, demonstrating strong academic foundation and commitment to excellence.",
-      date: "2019-2021",
-      icon: Zap,
-      color: "text-indigo-500",
-      bgColor: "bg-indigo-500/10",
-      impact: "91% Achievement"
+      description: "Qualified in the Joint Entrance Examination (JEE) Main and JEE Advanced examinations, demonstrating strong aptitude in mathematics, physics, and chemistry.",
+      date: "2022-2026",
+      icon: Users,
+      color: "text-blue-500",
+      bgColor: "bg-blue-500/10",
+      impact: "95 percentile in JEE Main"
     }
   ];
 

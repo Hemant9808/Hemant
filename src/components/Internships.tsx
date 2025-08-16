@@ -8,17 +8,6 @@ const Internships = () => {
   const internships = [
     {
       id: 1,
-      company: "ITraction",
-      role: "Full Stack Developer Intern",
-      duration: "Sep 2024 - Mar 2025",
-      location: "Remote",
-      description: "Developed and maintained the backend for an e-commerce pharmacy platform, handling secure payment processing and improving transaction efficiency by 30%. Built a scalable admin panel to manage orders, inventory, and user accounts, reducing operational overhead by 40%.",
-      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
-      logo: "/api/placeholder/60/60",
-      website: "https://www.itraction.in/"
-    },
-    {
-      id: 2,
       company: "Softnear",
       role: "Full Stack Developer Intern",
       duration: "Feb 2025 - May 2025",
@@ -28,6 +17,18 @@ const Internships = () => {
       logo: "/api/placeholder/60/60",
       website: "https://vuelitos.com"
     },
+    {
+      id: 2,
+      company: "ITraction",
+      role: "Full Stack Developer Intern",
+      duration: "Sep 2024 - Mar 2025",
+      location: "Remote",
+      description: "Developed and maintained the backend for an e-commerce pharmacy platform, handling secure payment processing and improving transaction efficiency by 30%. Built a scalable admin panel to manage orders, inventory, and user accounts, reducing operational overhead by 40%.",
+      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
+      logo: "/api/placeholder/60/60",
+      website: "https://www.itraction.in/"
+    },
+    
     {
       id: 3,
       company: "Adiray Global",
@@ -64,7 +65,7 @@ const Internships = () => {
               <CardHeader>
                 <div className="flex flex-col md:flex-row justify-between items-start gap-4">
                   <div className="flex items-start gap-4">
-                    <div className="w-15 h-15 bg-gradient-to-br from-primary to-purple-500 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                    <div className="w-[2rem] h-[2rem] bg-gradient-to-br from-primary to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
                       {internship.company.charAt(0)}
                     </div>
                     <div>

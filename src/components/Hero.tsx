@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen mt-10 flex items-center justify-center relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 hero-gradient opacity-5"></div>
       
@@ -46,6 +46,7 @@ const Hero = () => {
             variant="hero"
             size="lg" 
             className="px-8 py-3 text-lg rounded-full"
+            onClick={() => window.open('https://drive.google.com/file/d/1Uo5g6XqQsGnQXCe2JX3iZenhP4dzFqSL/view?usp=drivesdk', '_blank')}
           >
             <Download className="mr-2 h-5 w-5" />
             Download Resume
