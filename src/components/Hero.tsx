@@ -29,14 +29,14 @@ const Hero = () => {
             Hemant Kumar
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground mb-8">
-            Full Stack Developer & System Architect
+            Full Stack Developer
           </h2>
         </div>
 
         <div className="fade-in-up stagger-2">
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Passionate about building scalable web applications and innovative solutions. 
-            Experienced in React, Node.js, and modern technologies that power the digital world.
+            Full Stack Developer with expertise gained at ITraction and AdirayGlobal, specializing in React and modern frameworks. 
+            Proficient in building scalable, high-performance web applications and delivering innovative, optimized solutions.
           </p>
         </div>
 
@@ -62,13 +62,28 @@ const Hero = () => {
 
         {/* Social Links */}
         <div className="fade-in-up stagger-4 flex justify-center space-x-6 mb-16">
-          <Button variant="ghost" size="sm" className="transition-smooth hover:glow-effect hover:text-primary">
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            className="transition-smooth hover:glow-effect hover:text-primary"
+            onClick={() => window.open('https://github.com/Hemant9808', '_blank')}
+          >
             <Github className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="sm" className="transition-smooth hover:glow-effect hover:text-primary">
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            className="transition-smooth hover:glow-effect hover:text-primary"
+            onClick={() => window.open('https://linkedin.com/in/hemant-kumar-78893a207', '_blank')}
+          >
             <Linkedin className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="sm" className="transition-smooth hover:glow-effect hover:text-primary">
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            className="transition-smooth hover:glow-effect hover:text-primary"
+            onClick={() => window.open('mailto:hemant12734@gmail.com', '_blank')}
+          >
             <Mail className="h-5 w-5" />
           </Button>
         </div>

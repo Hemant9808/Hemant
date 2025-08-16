@@ -8,36 +8,36 @@ const Internships = () => {
   const internships = [
     {
       id: 1,
-      company: "Vuelitos Travel",
-      role: "Senior Full Stack Developer",
-      duration: "Jan 2024 - Present",
+      company: "ITraction",
+      role: "Full Stack Developer Intern",
+      duration: "Sep 2024 - Mar 2025",
       location: "Remote",
-      description: "Led development of comprehensive flight booking platform handling 10K+ daily searches. Built multi-GDS integration with Amadeus, Duffel, and KIU for real-time flight data.",
-      technologies: ["React", "Node.js", "TypeScript", "Redux", "Express", "Prisma", "Firebase"],
+      description: "Developed and maintained the backend for an e-commerce pharmacy platform, handling secure payment processing and improving transaction efficiency by 30%. Built a scalable admin panel to manage orders, inventory, and user accounts, reducing operational overhead by 40%.",
+      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
+      logo: "/api/placeholder/60/60",
+      website: "https://www.itraction.in/"
+    },
+    {
+      id: 2,
+      company: "Softnear",
+      role: "Full Stack Developer Intern",
+      duration: "Feb 2025 - May 2025",
+      location: "Remote", 
+      description: "Developed Travel Carib website integrating Duffel, Amadeus, and Kiu APIs with optimized search algorithms and payment processing. Built flight search, booking, and payment APIs with multi-provider data aggregation and booking management systems. Created price calendar, fare rules integration, and booking interfaces for seamless user experience.",
+      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
       logo: "/api/placeholder/60/60",
       website: "https://vuelitos.com"
     },
     {
-      id: 2,
-      company: "Travel-Carib Systems",
-      role: "Backend System Architect",
-      duration: "Sep 2023 - Dec 2023",
-      location: "Remote",
-      description: "Designed and implemented scalable backend architecture for travel management system. Created multi-GDS integration layer and real-time booking management system.",
-      technologies: ["Node.js", "Express", "PostgreSQL", "Redis", "Docker", "AWS"],
-      logo: "/api/placeholder/60/60",
-      website: "#"
-    },
-    {
       id: 3,
-      company: "R&R Logistics Tech",
-      role: "Full Stack Developer",
-      duration: "Mar 2023 - Aug 2023",
-      location: "Hybrid",
-      description: "Built comprehensive warehouse management system with inventory tracking, role-based access control, and real-time reporting dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Material-UI"],
+      company: "Adiray Global",
+      role: "React Developer Intern",
+      duration: "Apr 2024 - Aug 2024",
+      location: "Remote",
+      description: "Created reusable React components to enhance modularity and maintainability for CRM web application. Utilized state management with React hooks and React-Redux to handle application state. Ensured seamless integration with backend APIs for customer operations and user management.",
+      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "WebSocket", "Express.js", "MongoDB"],
       logo: "/api/placeholder/60/60",
-      website: "https://wms-rrltd.vercel.app"
+      website: "https://adirayglobal.com"
     }
   ];
 

@@ -7,73 +7,73 @@ const Achievements = () => {
   const achievements = [
     {
       id: 1,
-      title: "Hackathon Winner - Route Safety Navigator",
-      category: "Competition",
-      description: "First place in university hackathon for developing an AI-powered route safety application using real-time crime data and machine learning algorithms.",
+      title: "GSSOC Contributor",
+      category: "Open Source",
+      description: "Successfully contributed to open-source projects during GirlScript Summer of Code program, making impactful contributions to the open-source community.",
       date: "2024",
-      icon: Trophy,
-      color: "text-yellow-500",
-      bgColor: "bg-yellow-500/10",
-      impact: "92% accuracy in route safety prediction"
+      icon: Code,
+      color: "text-green-500",
+      bgColor: "bg-green-500/10",
+      impact: "Open Source Impact"
     },
     {
       id: 2,
-      title: "10K+ Daily Users Platform",
-      category: "Scale Achievement",
-      description: "Successfully scaled flight booking platform to handle 10,000+ daily search queries with 99.9% uptime and sub-second response times.",
-      date: "2024",
-      icon: Users,
-      color: "text-blue-500",
-      bgColor: "bg-blue-500/10",
-      impact: "Processed 500+ successful bookings"
+      title: "Hacktoberfest 2024 - Level 2 Contributor",
+      category: "Open Source",
+      description: "Successfully completed Level 2 in Hacktoberfest 2024 by making impactful open-source contributions and maintaining high-quality code standards.",
+      date: "Oct 2024",
+      icon: Trophy,
+      color: "text-orange-500",
+      bgColor: "bg-orange-500/10",
+      impact: "Level 2 Achievement"
     },
     {
       id: 3,
-      title: "Multi-GDS Integration Expert",
-      category: "Technical Excellence",
-      description: "Architected and implemented complex integration with 3 major GDS systems (Amadeus, Duffel, KIU) for real-time flight data synchronization.",
+      title: "Hackathon Finalist",
+      category: "Competition",
+      description: "Participated in a competitive hackathon, successfully presenting an innovative idea that advanced to the final round through technical excellence and creativity.",
       date: "2024",
-      icon: Code,
+      icon: Award,
       color: "text-purple-500",
       bgColor: "bg-purple-500/10",
-      impact: "Reduced data sync time by 75%"
+      impact: "Final Round Qualifier"
     },
     {
       id: 4,
-      title: "Warehouse Efficiency Optimizer",
-      category: "Process Improvement",
-      description: "Designed WMS that increased warehouse operational efficiency by 45% through automated inventory tracking and intelligent routing.",
-      date: "2023",
+      title: "Route Safety Navigator - Winner",
+      category: "Innovation",
+      description: "Developed award-winning application for finding the safest routes using real-time crime data and machine learning algorithms with 92% accuracy.",
+      date: "2024",
       icon: Target,
-      color: "text-green-500",
-      bgColor: "bg-green-500/10",
-      impact: "45% efficiency improvement"
+      color: "text-yellow-500",
+      bgColor: "bg-yellow-500/10",
+      impact: "92% accuracy rate"
     },
     {
       id: 5,
-      title: "Full-Stack Mastery Certification",
-      category: "Certification",
-      description: "Achieved advanced proficiency in modern web technologies including React, Node.js, TypeScript, and cloud architecture patterns.",
-      date: "2023",
-      icon: Award,
-      color: "text-indigo-500",
-      bgColor: "bg-indigo-500/10",
-      impact: "15+ technologies mastered"
+      title: "B.Tech Computer Science Engineering",
+      category: "Education",
+      description: "Pursuing Bachelor of Technology in Computer Science and Engineering at Sharda University, Greater Noida with focus on full-stack development and modern technologies.",
+      date: "2022 - 2026",
+      icon: Users,
+      color: "text-blue-500",
+      bgColor: "bg-blue-500/10",
+      impact: "Academic Excellence"
     },
     {
       id: 6,
-      title: "Real-time System Architecture",
-      category: "Innovation",
-      description: "Built high-performance real-time systems handling concurrent users with WebSocket connections and optimized database queries.",
-      date: "2023",
+      title: "CBSE Class XII - 91% Aggregate",
+      category: "Academic",
+      description: "Achieved 91% aggregate in CBSE Class XII examination from GRSS Vidya Mandir, demonstrating strong academic foundation and commitment to excellence.",
+      date: "2019-2021",
       icon: Zap,
-      color: "text-orange-500",
-      bgColor: "bg-orange-500/10",
-      impact: "<100ms response time"
+      color: "text-indigo-500",
+      bgColor: "bg-indigo-500/10",
+      impact: "91% Achievement"
     }
   ];
 
-  const categories = ["All", "Competition", "Scale Achievement", "Technical Excellence", "Process Improvement", "Certification", "Innovation"];
+  const categories = ["All", "Open Source", "Competition", "Innovation", "Education", "Academic"];
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const filteredAchievements = selectedCategory === "All" 

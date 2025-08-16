@@ -8,23 +8,68 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Flight Booking Platform",
-      description: "Comprehensive travel aggregator with multi-GDS integration, real-time search, and seamless booking experience. Handles 10K+ daily searches across multiple airlines.",
+      title: "TravelCarib Flight Booking Platform",
+      description: "Comprehensive flight booking platform integrating Duffel, Amadeus, and Kiu APIs with real-time search, secure payments, and seamless booking experience. Features RBAC, admin panel with analytics, and multi-provider data aggregation.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis", "Stripe"],
+      technologies: ["Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "React-Redux", "Tailwind CSS", "MUI"],
       liveUrl: "https://vuelitos.com",
       githubUrl: "#",
       stats: {
-        users: "10K+",
-        transactions: "500+",
-        uptime: "99.9%"
+        apis: "3 GDS",
+        bookings: "Real-time",
+        payments: "Secure"
       },
       featured: true
     },
     {
       id: 2,
+      title: "AI Agent Platform",
+      description: "Multi-tool conversational assistant using Next.js 15, Claude 3.5 Sonnet, and Anthropic with real-time token streaming, dynamic tool integration via IBM wxflows, and intelligent context management.",
+      image: "/api/placeholder/400/250",
+      technologies: ["Next.js 15", "LangChain", "Claude 3.5 Sonnet", "Anthropic", "LangGraph", "IBM wxflows"],
+      liveUrl: "#",
+      githubUrl: "#",
+      stats: {
+        tools: "Dynamic",
+        ai: "Claude 3.5",
+        memory: "Stateful"
+      },
+      featured: true
+    },
+    {
+      id: 3,
+      title: "Campus Connect",
+      description: "University-governed platform enabling students to join interest-based groups and host events. Features role-based access control, real-time chat, LangChain-powered chatbot, and live event calendar.",
+      image: "/api/placeholder/400/250",
+      technologies: ["Next.js", "Node.js", "Express", "PostgreSQL", "Prisma", "LangChain", "Socket.io", "Shadcn"],
+      liveUrl: "https://nilesh-psi.vercel.app",
+      githubUrl: "#",
+      stats: {
+        groups: "Interest-based",
+        chat: "Real-time",
+        events: "Live Calendar"
+      },
+      featured: false
+    },
+    {
+      id: 4,
+      title: "Interview Practice Platform",
+      description: "Boost interview skills with customized questions tailored to role and experience level. Interactive recording, detailed feedback, and performance ratings to build confidence.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Node.js", "WebRTC", "AI Analysis", "Recording"],
+      liveUrl: "https://praxis-zeta.vercel.app/",
+      githubUrl: "#",
+      stats: {
+        questions: "Tailored",
+        recording: "Interactive",
+        feedback: "Detailed"
+      },
+      featured: false
+    },
+    {
+      id: 5,
       title: "Warehouse Management System",
-      description: "Smart inventory tracking system with barcode scanning, role-based access control, and real-time analytics dashboard for logistics optimization.",
+      description: "Smart inventory tracking with barcode scanning, role-based access control, and real-time analytics dashboard for logistics optimization.",
       image: "/api/placeholder/400/250",
       technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Material-UI"],
       liveUrl: "https://wms-rrltd.vercel.app",
@@ -37,38 +82,8 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 3,
-      title: "Group Management System",
-      description: "Academic social platform for university students with smart group creation, event management, and role-based access control.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "PostgreSQL", "JWT", "Tailwind"],
-      liveUrl: "https://nilesh-psi.vercel.app",
-      githubUrl: "#",
-      stats: {
-        groups: "200+",
-        students: "1.5K+",
-        events: "300+"
-      },
-      featured: false
-    },
-    {
-      id: 4,
-      title: "Chat Application",
-      description: "Real-time messaging platform with end-to-end encryption, file sharing, and modern UI design for seamless communication.",
-      image: "/api/placeholder/400/250",
-      technologies: ["React", "Socket.io", "Node.js", "MongoDB", "JWT"],
-      liveUrl: "https://chatify-r1dc.vercel.app",
-      githubUrl: "#",
-      stats: {
-        messages: "50K+",
-        users: "500+",
-        latency: "<100ms"
-      },
-      featured: false
-    },
-    {
-      id: 5,
-      title: "E-Commerce Platform",
+      id: 6,
+      title: "Electronic E-Shop",
       description: "Modern electronics marketplace with advanced filtering, secure payments, and responsive design for optimal shopping experience.",
       image: "/api/placeholder/400/250",
       technologies: ["React", "Node.js", "Stripe", "MongoDB", "Redux"],
@@ -76,13 +91,13 @@ const Projects = () => {
       githubUrl: "#",
       stats: {
         products: "1K+",
-        orders: "200+",
+        orders: "Secure",
         rating: "4.8/5"
       },
       featured: false
     },
     {
-      id: 6,
+      id: 7,
       title: "Route Safety Navigator",
       description: "Hackathon-winning application for finding the safest routes using real-time crime data and machine learning algorithms.",
       image: "/api/placeholder/400/250",
@@ -93,6 +108,81 @@ const Projects = () => {
         accuracy: "92%",
         routes: "10K+",
         award: "Winner"
+      },
+      featured: false
+    },
+    {
+      id: 8,
+      title: "Imagify - AI Image Generator",
+      description: "AI-powered image generation website with advanced algorithms for creating stunning visuals from text prompts.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "AI APIs", "Node.js", "Image Processing"],
+      liveUrl: "https://imagify-frontend-nbxs.onrender.com/",
+      githubUrl: "#",
+      stats: {
+        images: "AI Generated",
+        quality: "HD",
+        speed: "Fast"
+      },
+      featured: false
+    },
+    {
+      id: 9,
+      title: "ITraction - IT Services",
+      description: "Professional IT services company website showcasing digital solutions, web development, and technology consulting services.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Next.js", "Tailwind CSS", "CMS"],
+      liveUrl: "https://www.itraction.in/",
+      githubUrl: "#",
+      stats: {
+        services: "IT Solutions",
+        clients: "Global",
+        experience: "Professional"
+      },
+      featured: false
+    },
+    {
+      id: 10,
+      title: "Wellvas Healthcare",
+      description: "Comprehensive healthcare platform with patient management, appointment scheduling, and medical record management systems.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Node.js", "Healthcare APIs", "Admin Panel"],
+      liveUrl: "https://wellvas.com",
+      githubUrl: "#",
+      stats: {
+        patients: "Managed",
+        appointments: "Scheduled",
+        records: "Secure"
+      },
+      featured: false
+    },
+    {
+      id: 11,
+      title: "Real Estate Platform",
+      description: "Modern real estate website for property listings, virtual tours, and property management with advanced search capabilities.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "Real Estate APIs", "Maps Integration", "CMS"],
+      liveUrl: "https://realtorsproperty.com/property/the-omaxe-state/",
+      githubUrl: "#",
+      stats: {
+        properties: "Listed",
+        tours: "Virtual",
+        search: "Advanced"
+      },
+      featured: false
+    },
+    {
+      id: 12,
+      title: "Kicks & Co - Shoe Store",
+      description: "E-commerce platform for premium footwear with product catalog, shopping cart, and secure payment integration.",
+      image: "/api/placeholder/400/250",
+      technologies: ["React", "E-commerce", "Payment Gateway", "Inventory"],
+      liveUrl: "https://www.kicksandco.in/collections/men",
+      githubUrl: "#",
+      stats: {
+        products: "Premium",
+        cart: "Smart",
+        checkout: "Secure"
       },
       featured: false
     }

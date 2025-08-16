@@ -10,19 +10,19 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/hemantkumar',
+      url: 'https://github.com/Hemant9808',
       color: 'hover:text-gray-400'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/hemantkumar',
+      url: 'https://linkedin.com/in/hemant-kumar-78893a207',
       color: 'hover:text-blue-400'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:hemant27134@gmail.com',
+      url: 'mailto:hemant12734@gmail.com',
       color: 'hover:text-red-400'
     }
   ];
@@ -54,8 +54,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
-              Full Stack Developer passionate about building scalable web applications 
-              and innovative solutions that make a difference.
+              Full Stack Developer with expertise in React and modern frameworks, specializing in 
+              building scalable, high-performance web applications and innovative solutions.
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
@@ -63,9 +63,13 @@ const Footer = () => {
                 <span>India</span>
               </div>
               <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4 text-primary" />
+                <span>+91-9304389808</span>
+              </div>
+              <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:hemant27134@gmail.com" className="hover:text-primary transition-smooth">
-                  hemant27134@gmail.com
+                <a href="mailto:hemant12734@gmail.com" className="hover:text-primary transition-smooth">
+                  hemant12734@gmail.com
                 </a>
               </div>
             </div>
