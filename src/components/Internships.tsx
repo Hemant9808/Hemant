@@ -9,11 +9,11 @@ const Internships = () => {
     {
       id: 1,
       company: "Softnear",
-      role: "Full Stack Developer Intern",
-      duration: "Feb 2025 - May 2025",
+      role: "Full Stack Developer (Intern → Full-time)",
+      duration: "Feb 2025 - July 2025",
       location: "Remote", 
-      description: "Developed Travel Carib website integrating Duffel, Amadeus, and Kiu APIs with optimized search algorithms and payment processing. Built flight search, booking, and payment APIs with multi-provider data aggregation and booking management systems. Created price calendar, fare rules integration, and booking interfaces for seamless user experience.",
-      technologies: ["React.js", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
+      description: "Developed Travel Carib website and cross-platform mobile application using React Native for seamless booking and payment integration. Integrated Duffel, Amadeus, and Kiu APIs with optimized search algorithms and payment processing. Built flight search, booking, and payment APIs with multi-provider data aggregation and booking management systems. Integration with Cockpet GDS led to 15% more discounted flight search results. Implemented firewall system for all three GDS (Kiu, Duffel, Cockpet) to block particular airlines or flight sequences coming from the GDS. Created price calendar, fare rules integration, and booking interfaces for seamless user experience.",
+      technologies: ["React.js", "React Native", "TypeScript", "Next.js", "React-Redux", "Tailwind CSS", "MUI", "Node.js", "Express.js", "MongoDB"],
       logo: "/api/placeholder/60/60",
       website: "https://vuelitos.com"
     },

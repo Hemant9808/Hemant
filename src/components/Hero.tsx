@@ -46,7 +46,7 @@ const Hero = () => {
             variant="hero"
             size="lg" 
             className="px-8 py-3 text-lg rounded-full"
-            onClick={() => window.open('https://drive.google.com/file/d/1Uo5g6XqQsGnQXCe2JX3iZenhP4dzFqSL/view?usp=drivesdk', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1wgbiOay-12Xk4b9x4CV4UqmCYmeHsu7s/view?usp=drivesdk', '_blank')}
           >
             <Download className="mr-2 h-5 w-5" />
             Download Resume
